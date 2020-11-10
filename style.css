@@ -23,7 +23,8 @@ p {
     grid-template-columns: 23% 23% 23% 23%;
     grid-column-gap:20px;
     grid-row-gap:10px;
-    grid-template-areas: ;
-    "header header header header"
-    "main main"
+    grid-template-areas: 
+   "header header header header"
+   "main main . aside"
+   "footer footer footer footer";
 }
